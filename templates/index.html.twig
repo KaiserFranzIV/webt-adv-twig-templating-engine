@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+{% block content %}
+<div class="row g-4 text-center">
+    {% for hotel in hotels %}
+        {% set class = 'div' ~ (hotel.getId() % 3) %}
+        <div class="col-md-4">
+            {% include 'hotel.html.twig' with { 'hotel': hotel, 'class': class } %}
+        </div>
+    {% endfor %}
+</div>
+{% endblock %}

@@ -1,0 +1,17 @@
+{
+    "name": "bernh/webt-adv-twig-templating-engine",
+    "autoload": {
+        "psr-4": {
+            "Bernh\\WebtAdvTwigTemplatingEngine\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "KaiserFranzIV",
+            "email": "bmattausch2@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.20"
+    }
+}
